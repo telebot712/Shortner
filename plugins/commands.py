@@ -47,9 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
-        ]]
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -93,9 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
-        ]]
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
