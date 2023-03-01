@@ -195,19 +195,13 @@ async def next_page(bot, query):
         [
             InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
         ]
-    )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton('Contact', url='https://t.me/cyniteofficial')
-        ]
-    )
+    
     if 0 
-    btn.insert(2, 
+    btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton('How To Watch', url='https://t.me/cyniteofficial,
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
          ]
     )
     if 0 < offset <= 10:
@@ -965,19 +959,13 @@ async def auto_filter(client, msg, spoll=False):
         [
             InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
         ]
-    )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton('Contact', url='https://t.me/cyniteofficial')
-        ]
-    )
+    
     if 0 
-    btn.insert(2, 
+    btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton('How To Watch', url='https://t.me/cyniteofficial,
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
          ]
     )
 
