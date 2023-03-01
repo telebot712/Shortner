@@ -197,6 +197,12 @@ async def next_page(bot, query):
         ]
     )
     btn.insert(1, 
+        [
+            InlineKeyboardButton('Contact', url='https://t.me/cyniteofficial')
+        ]
+    )
+    if 0 
+    btn.insert(2, 
          [
              InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
@@ -204,7 +210,6 @@ async def next_page(bot, query):
              InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
          ]
     )
-
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -962,6 +967,12 @@ async def auto_filter(client, msg, spoll=False):
         ]
     )
     btn.insert(1, 
+        [
+            InlineKeyboardButton('Contact', url='https://t.me/cyniteofficial')
+        ]
+    )
+    if 0 
+    btn.insert(2, 
          [
              InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
