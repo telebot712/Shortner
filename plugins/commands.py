@@ -478,7 +478,7 @@ async def settings(client, message):
             ],
             [
                 InlineKeyboardButton(
-                    'ShortLink',
+                    'shortner',
                     callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
@@ -581,7 +581,7 @@ async def send_msg(bot, message):
     else:
         await message.reply_text("<b>Use this command as a reply to any message using the target chat id. For eg: /send userid</b>")
 
-@Client.on_message(filters.command("shortlink") & filters.user(ADMINS))
+@Client.on_message(filters.command("shortner") & filters.user(ADMINS))
 async def shortlink(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -601,7 +601,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/shortlink shorturllink.in 95a8195c40d31e0c3b6baa68813fcecb1239f2e9</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/Shortner Mdisklink.link Hbe792827uebwudi18373888bsnz2 </Code></B>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)
