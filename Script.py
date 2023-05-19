@@ -16,7 +16,7 @@ class script(object):
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- This Is Private Code </b>
 <b>DEVS:</b>
-- <a href=https://t.me/Cyniteofficial>Cynite</a>"""
+- <a href=https://t.me/moviekhorlink>MovieKhor.Link</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -141,7 +141,7 @@ Elsa
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/iPapkornbetabots> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/moviekhorlink> ᴄʜᴀɴɴᴇʟ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
