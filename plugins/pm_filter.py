@@ -199,7 +199,7 @@ async def next_page(bot, query):
     btn.insert(1, 
          [
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton('How To Watch', url='https://t.me/How_to_watchmovie'),
+             InlineKeyboardButton('How To Watch', url='https://t.me/msindiaakapp'),
              InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
          ]
     )
